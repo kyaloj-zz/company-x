@@ -1,0 +1,15 @@
+<%= form_for @registration do |f| %>
+  <%= f.label :company_name %>
+  <%= f.text_field :company_name %>
+
+  <%= f.label :user_name %>
+  <%= f.text_field :user_name %>
+
+  <%= f.label :user_email %>
+  <%= f.email_field :user_email %>
+
+  <%= f.label :user_password %>
+  <%= f.password_field :user_password %>
+
+  <%= f.button :submit %>
+<% end %>

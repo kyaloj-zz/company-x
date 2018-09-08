@@ -1,0 +1,6 @@
+<h1>User details<h1>
+<p> <strong>Company: </strong> <%= @user.company.name %></p>
+<p> <strong>Name: </strong> <%= @user.name %></p>
+<p> <strong>Email: </strong> <%= @user.email %></p>
+
+<%= link_to 'logout', logout_path%>
