@@ -1,4 +1,11 @@
 <%= form_for @registration do |f| %>
+  <% if @registration.errors.any? %>
+  <ul>
+    <% @registration.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+  </ul>
+  <% end %>
   <%= f.label :company_name %>
   <%= f.text_field :company_name %>
 
