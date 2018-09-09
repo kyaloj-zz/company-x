@@ -1,24 +1,13 @@
-# README
+### Requirements
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Rails 5.2.0
+* Ruby 2.5.1
+* postgres version 10(any should work though)
 
-Things you may want to cover:
+### Installation
 
-* Ruby version
+* in terminal run `git clone https://github.com/kyaloj/company-x.git`
+* cd into `company-x`
+* run `rails db:create` then `rails db:migrate`
+* run server( `rails s`)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
